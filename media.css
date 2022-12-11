@@ -1,7 +1,26 @@
 @media only screen and (max-width:780px){
-    body{
+    html,body{
+        height:100%;
+        width:100%;
+        margin:0;
+        padding:0;
+        overflow-x:hidden;
+    }
+body{
         width:100vw;
     }
+.main{
+        
+    width:100vw;
+}
+.Intro{
+        
+        width:100vw;
+}
+.videosection{
+    overflow-x:none;
+    width:100vw;
+}
 .logo{
     height:50px;
 }
@@ -69,6 +88,8 @@ width:20%;
 }
 .rooms{
     height:280vh;
+    
+    width:100vw;
 
 }
 .wrapper{
@@ -115,7 +136,9 @@ width:320px;
 }
 .extra{
     height:170vh;
+    
     position:relative;
+    width:100vw;
 }
 .imagebox_2{
     height:65%;
@@ -144,6 +167,8 @@ width:320px;
 }
 .services{
     height:230vh;
+    
+    width:100vw;
 }
 .servicelist{
     display:block;
@@ -181,6 +206,8 @@ width:320px;
 }
 .discover{
     height:380vh;
+    
+    width:100vw;
 }
 .maincontainer{
    display:grid;
@@ -235,6 +262,8 @@ width:320px;
 }
 .news{
     height:100vh;
+    
+    width:100vw;
 }
 .news1{
     width:320px;
@@ -252,6 +281,8 @@ background-attachment: local;
 background-size: cover;
 background-position: 60% 50%;
 position:relative;
+
+width:100vw;
 }
 .form_container{
     position:absolute;
@@ -279,6 +310,8 @@ position:relative;
 }
 .stamps{
     height:10vh;
+    
+    width:100vw;
 }
 .stampcontainer{
     display:flex;
@@ -293,7 +326,8 @@ position:relative;
 .footer{
     position:relative;
     height:120vh;
-
+    
+    width:100vw;
 }
 .footcontainer{
     display:block;
