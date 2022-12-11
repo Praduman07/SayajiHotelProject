@@ -1,0 +1,342 @@
+@media only screen and (max-width:780px){
+    body{
+        width:100vw;
+    }
+.logo{
+    height:50px;
+}
+.list{
+    display:none;
+}
+.stars{
+    width:35%;
+}
+.para1{
+    font-size:1rem;
+}
+.heading1{
+    font-size:2rem;
+    line-height:45px;
+    
+}
+.imagebox1{
+    height:200px;
+    
+}
+.image2{
+    height:200px;
+    left:55%;
+    position:absolute;
+    
+}
+.imagebox2{
+    height:200px;
+    
+}
+.image3{
+    height:200px;
+  
+    position:absolute;
+    
+}
+.stars1{
+width:20%;
+}
+.heading2{
+    font-size:2.4rem;
+    
+   
+    
+}
+.subheading2{
+    font-size:.9rem;
+
+}
+.para2{
+    font-size:.7rem;
+    line-height:20px;
+}
+.container10{
+  position:absolute;
+  left:8%;
+  top:8%;
+  width:80%;
+    display:block;
+    
+}
+.textbox{
+    width:100%;
+}
+.rooms{
+    height:280vh;
+
+}
+.wrapper{
+    display:block;
+}
+.box{
+    height:420px;
+    width:320px;
+    margin-bottom:30px;
+
+}
+.details{
+    font-size:.8rem;
+    margin-left:50px;
+}
+.row2{
+    display:block;
+}
+.room4,.room5{
+height:200px;
+width:320px;
+}
+.text2{
+    position:absolute;
+    top:50%;
+    left:5%;
+}
+.book2{
+    left:80%;
+    top:17%;
+}
+.room4:hover .text2,.room5:hover .text2{
+    top:20%;
+}
+
+.textbox2{
+    width:80%;
+    margin-top:50px;
+}
+.container{
+    display:block;
+    position:relative;
+ 
+}
+.extra{
+    height:170vh;
+    position:relative;
+}
+.imagebox_2{
+    height:65%;
+    width:60%;
+ position:absolute;
+ top:850px;
+ left:20px;
+
+}
+.listitem{
+    font-size:.9rem;
+}
+.imagebox_1{
+  height:65%;
+    width:60%;
+    position:absolute;
+    left:-280px;
+    top:450px;
+
+    
+}
+.image_2,.image_1{
+    width:100%;
+    height:100%;
+   
+}
+.services{
+    height:230vh;
+}
+.servicelist{
+    display:block;
+
+}
+.part{
+    margin-bottom:30px;
+    width:90%;
+}
+.complete2{
+    position:absolute;
+    top:8%;
+    left:8%;
+    
+}
+.review{
+    position:relative;
+    background-attachment: local;
+    background-size:auto;
+    
+    background-position: 80% 80%;
+}
+.reviewbox{
+    top:50%;
+    position:absolute;
+    left:50%;
+    width:90%;
+}
+.heading6{
+    font-size:1.7rem;
+    white-space: nowrap;
+}
+.stars6{
+    width:50%;
+}
+.discover{
+    height:380vh;
+}
+.maincontainer{
+   display:grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: repeat(8,1fr);
+   height:100%;
+   width:100%;
+   padding:30% 0;
+}
+.heading_discover{
+    font-size:2rem;
+}
+.discoverimg{
+    height:70%;
+    
+}
+.left1{
+    grid-column: 1/1;
+    grid-row:1/1;
+}
+.right1{
+    grid-column: 1/1;
+    grid-row:2/2;
+}
+.left2{
+    grid-column: 1/1;
+    grid-row:4/4;
+}
+.right2{
+    grid-column: 1/1;
+    grid-row:3/3;
+}
+.left3{
+    grid-column: 1/1;
+    grid-row:5/5;
+}
+.right3{
+    grid-column: 1/1;
+    grid-row:6/6;
+}
+.left4{
+    grid-column: 1/1;
+    grid-row:8/8;
+}
+.right4{
+    grid-column: 1/1;
+    grid-row:7/7;
+}
+.right1,.left2,.right3,.left4{
+    padding:0px 20px 0 20px;
+    
+}
+.news{
+    height:100vh;
+}
+.news1{
+    width:320px;
+}
+.news2,.news3{
+    display:none;
+    
+}
+.heading_news{
+    font-size:1.5rem;
+}
+.form{
+height:130vh;
+background-attachment: local;
+background-size: cover;
+background-position: 60% 50%;
+position:relative;
+}
+.form_container{
+    position:absolute;
+    display:block;
+  top:8%;
+  left:5%;  
+  width:200%;
+}
+.stars5{
+    width:25%;
+    margin-bottom:20px;
+}
+.formpara{
+    font-size:1.3rem;
+    margin-bottom:30px;
+}
+.bookform{
+    width:45%;
+  height:500px;
+  margin-top:100px;
+  position:relative;
+}
+.headingbook{
+    font-size:1.5rem;
+}
+.stamps{
+    height:10vh;
+}
+.stampcontainer{
+    display:flex;
+    margin-top:10px;
+    margin-left:-50px;
+}
+.stamp{
+    height:70px;
+    margin-right:-60px;
+    
+}
+.footer{
+    position:relative;
+    height:120vh;
+
+}
+.footcontainer{
+    display:block;
+    width:300%;
+    position:asbolute;
+    top:8%;
+    left:8%;
+
+}
+.footheading{
+    font-size:1.5rem;
+}
+.footpara{
+    margin-bottom:70px;
+}
+.list1,.list2,.list3,.list4,.list5,.list6{
+    margin-bottom:10px;
+}
+.explore{
+    margin-bottom:70px;
+}
+.mail::after{
+    width:250px;
+}
+.number1{
+    margin-top:-50px;
+}
+.phone{
+    height:30px;
+}
+.contact{
+    font-size:1.2rem;
+}
+.copyright{
+    height:10vh;
+}
+.copybox{
+   width:200%;
+}
+.heading10{
+    font-size:.7rem;
+}
+.name{
+    font-size:.8rem;
+}
+}
